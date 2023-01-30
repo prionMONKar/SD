@@ -1,0 +1,1 @@
+@extends('public.admin.asstes.js.form')
