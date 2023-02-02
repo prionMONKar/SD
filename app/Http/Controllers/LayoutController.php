@@ -15,4 +15,7 @@ class LayoutController extends Controller
     public function form(){
         return view('admin.pages.form');
     }
+    public function home(){
+        return view('website.pages.home');
+    }
 }

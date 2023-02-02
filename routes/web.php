@@ -42,3 +42,5 @@ Route::get('admin/dashboard', [LayoutController::class, 'dashboard']);
 Route::get('admin/tables', [LayoutController::class, 'tables']);
 
 Route::get('admin/form', [LayoutController::class, 'form']);
+
+Route::get('website/home', [LayoutController::class, 'home']);
